@@ -1,8 +1,8 @@
 #include<stdio.h>
-
 int main()
 {
-    printf("ok\n");
-    printf("build success & run smoothly ALHAMDULILLAH..//");
+    int a = 10;
+    printf("The value is : %d\n", a);
+    printf("Default Bin is Set");
     return 0;
-} 
+}
