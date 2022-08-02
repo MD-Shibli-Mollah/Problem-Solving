@@ -26,10 +26,11 @@ int main()
         for (j = 0; j < len; j++)
         {
             c2[j] = c[revlen]; //Last char becomes the first and reversed...
-            printf("Rev each char: %c\n", c2[j]);
+            //printf("Rev each char: %c\n", c2[j]);
             revlen--; 
             printf("Printing the rev Str: %s\n", c2);
         }
+        
         
     }
     
