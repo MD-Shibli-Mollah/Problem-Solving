@@ -3,6 +3,7 @@ int main()
 {
     int a = 10;
     printf("The value is : %d\n", a);
-    printf("Default Bin is Set");
+    printf("Default Bin is Set\n");
+    printf("working perfectly, Alhamdulillah");
     return 0;
 }
