@@ -1,11 +1,11 @@
 #include <iostream>
-#include<string>
+#include <string>
 
 using namespace std;
 
 int main()
 {
-    int c, i, j, e, b, wl, strlen;
+    int c, i, j, e, b, len;
     string str;
     cin>>c;
     while (c--)
@@ -17,12 +17,13 @@ int main()
             str+= to_string(i);
         }
 
-        strlen = str.size();
-        for (j = strlen -1; j >= 0; j--)
+        len = str.size();
+        for (j = len -1; j >= 0; j--)
         {
             cout<<str[j];
         }
         str.clear();
+        cout<<endl;
     }
     
     return 0;
